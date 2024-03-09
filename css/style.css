@@ -78,27 +78,77 @@ del {
     line-height: 21px;
     text-decoration: line-through;
 }
-/* .hind-siliguri-light {
-    font-family: "Hind Siliguri", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .hind-siliguri-regular {
-    font-family: "Hind Siliguri", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .hind-siliguri-medium {
-    font-family: "Hind Siliguri", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .hind-siliguri-semibold {
-    font-family: "Hind Siliguri", sans-serif;
+.menu {
+    padding: 40px 0;
+}
+.menu__h2 {
     font-weight: 600;
-    font-style: normal;
-  }
-   */
+    font-size: 38px;
+}
+.card {
+    height: 480px;
+    margin: 40px 0;
+}
+.card-body {
+    background: #FAFAFF;
+}
+.card__img_dish {
+    height: 360px;
+    display: flex;
+    align-items: center;
+}
+.card__img_dish img {
+    width: 100%;
+    padding: 0px 20px;
+}
+.menu__button .btn-primary {
+    background: #FF7E56;
+    border: 1px solid #FF7E56;
+}
+.menu__button a {
+    color: #fff
+}
+/* Раздел "Наши сервисы" */
+.services {
+    background: rgba(255, 222, 204, 0.27);
+    border-radius: 30px;
+    text-align: center;
+    padding: 185px 0;
+}
+.services__h2 {
+    margin-bottom: 15px;
+    font-size: 38px;
+    font-weight: 600;
+}
+.services__paragraph, .services__card_paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #030303;
+    padding-bottom: 50px;
+}
+.services__card {
+    background: #FDFBFB;
+    border-radius: 10px;
+}
+.services__card_body {
+    width: 290px;
+    margin: 0 auto;
+}
+.services__card_img {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    justify-content: center;
+    border-radius: 0px 0px 15px 15px;
+    margin: 30px auto 30px;
+    width: 121px;
+    height: 161px;
+    background: linear-gradient(180deg, rgba(252, 99, 52, 0) 0%, rgba(252, 99, 52, 0) 7.45%, rgba(252, 99, 52, 0.34) 119.25%);
+}
+.services__card_h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
