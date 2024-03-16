@@ -152,3 +152,36 @@ del {
     line-height: 26px;
     margin-bottom: 20px;
 }
+/* Шефы */
+.chefs__card {
+    position: relative;
+}
+.chefs__card_img {
+    border-radius: 10px;
+}
+.chefs__card_img img {
+    width: 100%;
+}
+.chefs__card_body {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: #ff683ab5;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+h3.chefs__card_h3 {
+    margin: 0;
+    color: #FDFBFB;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+.chefs__card_body p.chefs__paragraph {
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fdfbfb60;
+}
