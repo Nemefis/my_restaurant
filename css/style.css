@@ -185,3 +185,35 @@ h3.chefs__card_h3 {
     font-weight: 400;
     color: #fdfbfb60;
 }
+.latest_news__descr h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.latest_news__descr p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #0a244e70;
+    width: 42%;
+    margin: 0 auto;
+}
+.latest_news__card-body h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+.latest_news__card-body p {
+    font-size: 14px;
+    color: rgb(10 36 78 / 70%);
+    font-weight: 400;
+    line-height: 22px;
+}
+.latest_news__card-body a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FF683A;
+}
