@@ -185,12 +185,12 @@ h3.chefs__card_h3 {
     font-weight: 400;
     color: #fdfbfb60;
 }
-.latest_news__descr h2 {
+.latest_news__descr h2, .memebership_h2 {
     font-size: 38px;
     font-weight: 600;
     line-height: 45px;
 }
-.latest_news__descr p {
+.latest_news__descr p, .membership_paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
@@ -216,4 +216,55 @@ h3.chefs__card_h3 {
     text-transform: uppercase;
     text-decoration: none;
     color: #FF683A;
+}
+/* Section Membership */
+section.membership {
+    background: #FFF4F1;
+    padding: 80px 0;
+}
+.memebership__form {
+    width: 70%;
+    margin: 15px auto;
+}
+.row.membership__text {
+    width: 36%;
+    text-align: center;
+    margin: 0 auto;
+}
+.membership_paragraph {
+    width: 100%;
+}
+input.membership__input-email {
+    border-radius: 10px 0px 0px 10px;
+    padding: 0;
+    margin: 0;
+    width: 710px;
+    height: 75px;
+    padding-left: 30px;
+}
+button.membership__btn {
+    width: 185px;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+    background: #FF683A;
+    color: #FDFBFB;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    border: 0;
+    border-radius: 10px;
+    position: absolute;
+    right: 20%;
+}
+/* Footer */
+ul.footer__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a.footer__link {
+    color: #ffffff78;
+    text-decoration: none;
 }
