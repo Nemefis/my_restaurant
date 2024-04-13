@@ -267,7 +267,8 @@ button.membership__btn {
   }
 /* Footer */
 .footer {
-    background: #030303
+    background: #030303;
+    padding: 100px 0;
 }
 ul.footer__list {
     list-style: none;
@@ -275,7 +276,49 @@ ul.footer__list {
     margin: 0;
 }
 a.footer__link {
-    color: #ffffff78;
+    color: #fff;
     text-decoration: none;
+    opacity: 70%;
 }
 
+.footer__svg {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-top: 30px;
+}
+.footer__svg svg {
+    width: 20px;
+    height: 20px;
+}
+p.footer__paragraph {
+    color: #fff;
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+}
+h2.footer__h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 43px;
+}
+h3.foter__h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+.footer__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer__paragraph svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
