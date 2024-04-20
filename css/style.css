@@ -202,17 +202,17 @@ h3.chefs__card_h3 {
 }
 .latest_news__card-body h3 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 23px;
 }
 .latest_news__card-body p {
-    font-size: 14px;
+    font-size: 18px;
     color: rgb(10 36 78 / 70%);
     font-weight: 400;
     line-height: 22px;
 }
 .latest_news__card-body a {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 22px;
     text-transform: uppercase;
@@ -321,4 +321,48 @@ h3.foter__h3 {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+.latest_news__card-img {
+    background-color: #F8F9FF;
+    padding: 20px 0;
+}
+img.latest_news__img {
+    width: 100%;
+}
+.latest_news__cards {
+    border: 1px solid #00000010;
+    border-radius: 10px;
+    margin-bottom: 120px;
+    transition: all .3s;
+}
+.latest_news__card-body {
+    padding: 30px;
+}
+.latest_news__card-body a {
+    transition: all .3s;
+}
+
+.latest_news__cards:hover {
+    box-shadow: 0px 10px 20px rgba(44, 44, 44, 0.05);
+}
+.latest_news__card-body a:hover {
+    font-size: 23px;
+}
+
+@media screen and (max-width: 768px) {
+    .row.membership__text {
+        width: 100%;
+    }
+    .col-xl-6.header__text {
+        padding: 50px 20px;
+    }
+    .header__chef {
+        display: none;
+    }
+    a.btn.header__btn {
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+    }
 }
